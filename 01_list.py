@@ -17,7 +17,7 @@ num_list.append(135)
 print("顯示list")
 print(num_list)
 
-print("移除後") #remove一定要移除存在list中的值，不然會報錯
+print("移除後")  # remove一定要移除存在list中的值，不然會報錯
 num_list.remove("book")
 print(num_list)
 
@@ -26,16 +26,16 @@ sorted_list = sorted(num_list)
 print(sorted_list)
 
 print("num_list.sort(reverse=True) 排序後")
-print(num_list.sort(reverse=True)) #這個會顯示None
+print(num_list.sort(reverse=True))  # 這個會顯示None
 print(num_list)
 
 print("取值")
 print(num_list[0])
-print(num_list[-1])  #-1表示取最後一位，也可以用下面的寫法
-print(num_list[len(num_list)-1])
+print(num_list[-1])  # -1表示取最後一位，也可以用下面的寫法
+print(num_list[len(num_list) - 1])
 print("範圍取值")
-print(num_list[:4]) #取第0~3 (不含4)
-print(num_list[2:4])#取第2~3 (不含4)
-print(num_list[3:])#取第3位後面 (含3)
+print(num_list[:4])  # 取第0~3 (不含4)
+print(num_list[2:4])  # 取第2~3 (不含4)
+print(num_list[3:])  # 取第3位後面 (含3)
 print("每幾位取值")
-print(num_list[::2]) #每2位取值
+print(num_list[::2])  # 每2位取值
