@@ -33,4 +33,5 @@ print(name_b_list)
 listq = [1, 4, "f", "h", "h", "j", "y", "X", "Z"]
 print(5 in listq)  # 找到true 找不到false
 
+
 print(listq.index("h", 1, 8))  # 在位置1~8中找h，找到的話傳回h的位置，找不到就報錯，兩個以上就傳回第一個
