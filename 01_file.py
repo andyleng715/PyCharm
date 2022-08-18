@@ -24,9 +24,9 @@ except:
 
 ##刪檔
 try:
-    f = open("test.txt", "w")
+    #f = open("test.txt", "w")
     os.remove("test.txt")
-    f.close()
+    #f.close()
     print("刪成功")
 except:
     print("刪失敗")
